@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Svyat - Portfolio</title>
+  <script data-main="js/config.js" src="http://requirejs.org/docs/release/2.1.20/minified/require.js"></script>
+
+
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/jquery.circliful.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ball-clip-rotate-multiple.min.css">
+
+   <!--script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script-->
+</head>
+<body>
+
+  <div class="preloader">
+    <div class="la-ball-clip-rotate-multiple la-3x">
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">SK</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+
+  <section data-img="img/bg2.jpg" class="parallax header container-fluid" id="header">
+    <div class="header-content container">
+      <div class="row">
+          <h1>Hi!</h1>
+          <h2>I'M
+            <div id="example">
+              <ul>
+                <li>creative</li>
+                <li>extraordinare</li>
+                <li>fancy</li>
+                <li>ambitious</li>
+              </ul>
+            </div>
+          </h2>
+
+          <h2>Front-end developer</h2>
+
+          <div class="header-buttons">
+            <a href="#about" class="pb pb-white">About Me</a>
+            <a href="#contact" class="pb pb-white">Contact</a>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="about">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator separator-top" width="100%" height="100" viewBox="0 0 100 101" preserveAspectRatio="none">
+    <path d="M0 0 L0 100 L100 100 L100 0 L50 100 Z"></path>
+    </svg>
+
+    <div class="container about-container" style="max-width: 1000px">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>A little Bit About Me</h1>
+
+          <div class="title-block">
+            <span class="line-left"></span>
+            <i class="fa fa-user"></i>
+            <span class="line-right"></span>
+          </div>
+
+          <h3>I'm Svyatoslav Kovtun, a Front-End Developer based on L'viv, Ukraine.</h3>
+
+          <div class="col-sm-4 about-left">
+            <img class="img-responsive" src="img/avatar.svg" alt>
+          </div>
+          <div class="col-sm-8 about-right">
+            <p>I originally started my journey into the creative world by studying Java and creating desktop application but settled on designing and developing websites.</p>
+            <p>For the last several month I've learned new technological (like a VIM, Async Scripting, CSS Shapes and Inkscape) for developing cool and modern websites</p>
+            <p>Most recently I worked in freelance and for IT-SOUL as their front-end developer. I'm currenlty open to new opportunities and projects.</p>
+            <p class="about-buttons">
+              <a href="#" class="pb pb-black">PDF Resume</a>
+              <a href="#contact" class="pb pb-black">Contact Me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container-fluid" id="skills">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator separator-bottom" width="100%" height="100" viewBox="0 0 100 101" preserveAspectRatio="none">
+      <path d="M0 0 L0 0 L100 0 L100 0 L50 100 Z"></path>
+    </svg>
+    <div class="container feutures-container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="title-text">My Skills</h1>
+
+          <div class="title-block">
+            <span class="line-left"></span>
+            <i class="fa fa-cog"></i>
+            <span class="line-right"></span>
+          </div>
+
+        </div>
+
+        <div class="col-sm-2 feuture-elem">
+          <div class="myStat" data-dimension="200" data-text="78%" data-width="10" data-fontsize="38" data-percent="100" data-fgcolor="#fff" data-bgcolor="transparent" data-fill="transparent" data-total="100" data-part="78" data-icon="long-arrow-up" data-icon-size="28" data-icon-color="#fff"></div>
+          <p>HTML</p>
+        </div>
+        <div class="col-sm-2 feuture-elem">
+          <div class="myStat" data-dimension="200" data-text="84%" data-width="10" data-fontsize="38" data-percent="100" data-fgcolor="#fff" data-bgcolor="transparent" data-fill="transparent" data-total="100" data-part="84" data-icon="long-arrow-up" data-icon-size="28" data-icon-color="#fff"></div>
+          <p>CSS</p>
+        </div>
+        <div class="col-sm-2 feuture-elem">
+          <div class="myStat" data-dimension="200" data-text="72%" data-width="10" data-fontsize="38" data-percent="100" data-fgcolor="#fff" data-bgcolor="transparent" data-fill="transparent" data-total="100" data-part="72" data-icon="long-arrow-up" data-icon-size="28" data-icon-color="#fff"></div>
+          <p>JavaScript</p>
+        </div>
+        <div class="col-sm-2 feuture-elem">
+          <div class="myStat" data-dimension="200" data-text="68%" data-width="10" data-fontsize="38" data-percent="100" data-fgcolor="#fff" data-bgcolor="transparent" data-fill="transparent" data-total="100" data-part="68" data-icon="long-arrow-up" data-icon-size="28" data-icon-color="#fff"></div>
+          <p>jQuery</p>
+        </div>
+        <div class="col-sm-2 feuture-elem">
+          <div class="myStat" data-dimension="200" data-text="19%" data-width="10" data-fontsize="38" data-percent="100" data-fgcolor="#fff" data-bgcolor="transparent" data-fill="transparent" data-total="100" data-part="19" data-icon="long-arrow-up" data-icon-size="28" data-icon-color="#fff"></div>
+          <p>PHP</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container-fluid" id="portfolio">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator separator-top" width="100%" height="100" viewBox="0 0 100 101" preserveAspectRatio="none">
+    <path d="M0 0 L0 100 L100 100 L100 0 L50 100 Z"></path>
+    </svg>
+    <div class="container portfolio-container" style="max-width: 1000px">
+      <div class="row">
+
+        <div class="col-sm-12 port-col">
+          <h1>My Portfolio</h1>
+
+          <div class="title-block">
+            <span class="line-left"></span>
+            <i class="fa fa-hand-peace-o"></i>
+            <span class="line-right"></span>
+          </div>
+
+          <h3 class="portfolio-descript">Below is a showcase of the most recent projects that I’ve done for some wonderful people.</h3>
+        </div>
+
+        <!-- IT_SOUL -->
+        <div class="col-sm-12 project-title">
+          <img class="img-responsive" src="img/it-soul.png" alt>
+          <h2>It-Soul inc</h2>
+        </div>
+
+        <div class="col-sm-3 project-about">
+          <ul>
+            <li>HTML, CSS, JavaScript, PHP</li>
+            <li>Responsible Design</li>
+            <li>Parallax animation</li>
+          </ul>
+        </div>
+        <div class="col-sm-9 project-descript">
+          <p>It-Soul inc is modern IT company, based on L'viv Ukraine.
+          It was my first freelanse project and my first happy client :)</p>
+          <a href="http://it-soul.com.ua" class="pb pb-black" target="_blank">View Website</a>
+        </div>
+
+        <!-- REBECCA -->
+        <div class="col-sm-12 project-title">
+          <div class="line"></div>
+          <img class="img-responsive" src="img/rebecca.png" alt>
+          <h2>Rebecca</h2>
+        </div>
+
+        <div class="col-sm-3 project-about">
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsible Design</li>
+          </ul>
+        </div>
+        <div class="col-sm-9 project-descript">
+          <p>Rebecca - my first responsible template. This template design and created with me from scratch just for test. But, if you like it, please enjoy.</p>
+          <a href="http://svyatik.github.io/rebecca" class="pb pb-black" target="_blank">View Website</a>
+        </div>
+
+
+        <!-- MOVEWHEELS -->
+        <div class="col-sm-12 project-title">
+          <div class="line"></div>
+          <img class="img-responsive" src="img/movewheels.png" alt>
+          <h2>MOVEWHEELS</h2>
+        </div>
+
+        <div class="col-sm-3 project-about">
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsible Design</li>
+          </ul>
+        </div>
+        <div class="col-sm-9 project-descript">
+          <p>Movewheels - one of the largest companies that shipping cars from USA to Europe, South America and Asia.
+          I contributed to the site about creating an animated slider for user's feedback. This is one of the most important project that i've done.</p>
+          <a href="http://movewheels.com" class="pb pb-black" target="_blank">View Website</a>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="container-fluid" id="contact">
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="separator separator-bottom" width="100%" height="100" viewBox="0 0 100 101" preserveAspectRatio="none">
+      <path d="M0 0 L0 0 L100 0 L100 0 L50 100 Z"></path>
+    </svg>
+    <div class="container">
+      <div class="col-sm-12 contact-col">
+        <h1>Contact</h1>
+
+        <div class="title-block">
+          <span class="line-left"></span>
+          <i class="fa fa-envelope-o"></i>
+          <span class="line-right"></span>
+        </div>
+
+        <h3 class="portfolio-descript">Send a friendly hello</h3>
+
+        <form action="">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea name="" id="" rows="10"></textarea>
+          <button class="pb pb-white">Submit</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid" id="footer">
+    <div class="container footer-container">
+      <ul class="icons">
+        <li><a class="fa fa-facebook" href="#"></a></li>
+        <li><a class="fa fa-google-plus" href="#"></a></li>
+        <li><a class="fa fa-envelope" href="#"></a></li>
+      </ul>
+      <p class="footer-copyright">© 2015 Svyatoslav Kovtun. All rights reserved.</p>
+    </div>
+  </section>
+
+</body>
+</html>
